@@ -18,5 +18,5 @@ const (
 )
 
 func (L Thelevel) Level() string {
-	return [...]string{"FATA", "INFO", "WARN", "ERROR", "DEBG", "VEBO"}[L]
+	return [...]string{"FATA", "INFO", "WARN", "ERRO", "DEBG", "VEBO"}[L]
 }
